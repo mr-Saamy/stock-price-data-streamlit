@@ -17,3 +17,7 @@ A simple practice exercise for streamlit that checks the stock prices of Microso
   - open the command prompt or termnal and run the following command  
 
 ### streamlit run <location of the python file>/<filename... in this case "stream">.py
+  
+  - in the text field of the web app, Ener the desired Company's Ticker Symbol
+    (ex: MSFT for Micrsoft, GOOGL for Google, AAPL for Apple, TMT for Tata Motors etc.)
+  - Hit Enter and the app woll plot the graphs of stock and volume price of the company since 1/1/2000
