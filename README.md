@@ -1,5 +1,5 @@
 # stock-price-data-streamlit
-A simple practice exercise for streamlit that checks the stock prices of Microsoft
+A Simple Practice Exercise For Streamlit That Checks The Stock Prices For Any Company
 
 
 ## Prerequisites:
