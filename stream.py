@@ -8,10 +8,15 @@ st.write("""
 ## Shown are the stock price and volume of Microsoft since 2010
 
 """)
+
 # select a ticker symbol for the company that
 # you wamnt to check the stock prices... in this
-# case... Microsoft
-ticker_symbol = 'MSFT'
+# case... Defaults to Google
+st.write("""
+### Enter Ticker Symbol Of Desired Company: 
+""")
+
+ticker_symbol = st.text_input("", 'GOOGL')
 
 # get the stocks data
 ticker_data = yf.Ticker(ticker_symbol)
