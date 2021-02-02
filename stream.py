@@ -23,7 +23,7 @@ ticker_data = yf.Ticker(ticker_symbol)
 
 # filter out the required timeframe
 ticker_of = ticker_data.history(
-    start='2010-1-31', end=str(date.today().strftime("%Y-%m-%d")))
+    start='2000-1-31', end=str(date.today().strftime("%Y-%m-%d")))
 
 # plot the data
 st.line_chart(ticker_of.Close)
