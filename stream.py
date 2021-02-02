@@ -5,7 +5,7 @@ from datetime import date
 st.write("""
 # Simple Stock Price Checker App
 
-## Shown are the stock price and volume of Microsoft since 2010
+## Shown are the stock price and volume of Microsoft since 2000
 
 """)
 
